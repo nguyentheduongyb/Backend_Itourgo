@@ -14,7 +14,7 @@ class TourController {
                         });
         }
         get(req, res, next) {
-                Tour.find().populate('genre').populate('supplier')
+                Tour.find().populate('supplier')
                         .then(result => {
                                 res.json(result)
                         })
