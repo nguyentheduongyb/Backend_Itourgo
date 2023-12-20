@@ -1,0 +1,19 @@
+{
+    "name":"Tour Yên Bái",
+    "description":"Mô tả Yên Bái",
+    "tourCode":"YB01",
+    "location":"Yên Bái",
+    "price": {
+        "adult":"100",
+        "child":"50"
+    },
+    "expectedCost":"1000$",
+    "image":"Tạm thời chưa có ảnh",
+    "period":"2 ngày 1 đêm",
+    "experience": "- Thành cổ Đại Lý - trong bộ phim Thiên Long Bát bộ của nhà văn Kim Dung. Đại Lý được nhắc tới trong các tiểu thuyết như một vùng đất xinh đẹp, trù phú. Ngày nay, đây là điểm du lịch hút khách với các công trình kiến trúc cổ, văn hóa và ẩm thực đặc sắc.",
+    "numberOfGuest":"5 khách ghé qua trong 24h",
+    "inforVisa":"Tạm thời chưa có",
+    "rate":"5",
+    "supplier":"65813fa191ab8734288b935b"
+
+}
