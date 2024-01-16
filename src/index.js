@@ -21,6 +21,8 @@ const hbs = handlebars.create({
 app.engine('hbs', hbs.engine);
 app.use(methodOverride('_method'))
 app.use(express.static(path.join(__dirname, 'public')));
+
+//display log
 app.use(morgan('combined'));
 app.set('view engine', '.hbs');
 app.set('views', path.join(__dirname, 'resources/views'));

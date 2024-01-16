@@ -13,7 +13,7 @@ const Tour = new Schema({
                 adult: { type: Number, require: true },
                 child: { type: Number, require: true },
         },
-        expectedCost: { type: Number, require: true },
+        expectedCost: { type: Number },
         image: {
                 type: String
         },

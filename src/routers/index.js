@@ -11,7 +11,7 @@ const orderStatusRouter = require('~/routers/orderStatusRouter');
 const tourRouter = require('~/routers/tourRouter');
 
 function routers(app) {
-    app.use('/users', userRouter);
+    app.use('/user', userRouter);
     app.use('/api/product', productRouter);
     app.use('/api/tour', tourRouter);
     app.use('/api/gender', genderRouter);

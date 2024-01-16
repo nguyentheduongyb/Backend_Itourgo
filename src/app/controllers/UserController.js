@@ -6,7 +6,7 @@ const { multipleMongooseToObject, mongooseToObject } = require('~/util/mongoose'
 const { json } = require('express')
 
 class UserController {
-        async signup(req, res, next) {
+        async register(req, res, next) {
                 const { username, email, password } = req.body
                 if (!username || !password || !email) {
                         return res.sendStatus(400)
@@ -63,7 +63,7 @@ class UserController {
                                 res.sendStatus(500); // Trả về status code 500 nếu có lỗi xảy ra
                         });
         }
-        signin(req, res, next) {
+        login(req, res, next) {
                 const { email, password } = req.body
                 if (!email || !password) {
                         return res.sendStatus(400)
