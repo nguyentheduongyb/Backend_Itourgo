@@ -14,7 +14,7 @@ class UserController {
                 try {
                         const existingUser = await User.findOne({ email: email })
                         if (existingUser) {
-                                return existingUser
+                                return res.status(401).json({ message: 'User already exists' })
                         }
                         const hashedPassword = await bcrypt.hash(password, 10)
                         const results = await User.create({
